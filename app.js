@@ -1,3 +1,7 @@
+if (process.env.NODE_ENV !== "production") {
+    require('dotenv').config();
+}
+
 const express = require('express');
 const path = require('path');
 const mongoose = require('mongoose');
@@ -54,7 +58,6 @@ app.use(flash());
 
 app.use(passport.initialize());
 app.use(passport.session());
-// authenticate() generate a function in LocalStrategy
 passport.use(new LocalStrategy(User.authenticate()));
 
 // store users in session
