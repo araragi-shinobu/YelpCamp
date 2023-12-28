@@ -17,6 +17,7 @@ Responsive UI: A mobile-friendly user interface ensuring a seamless experience a
 
 
 Technologies Used
+
 Front-End: HTML5, CSS3, Bootstrap, jQuery
 
 Back-End: Node.js, Express.js
