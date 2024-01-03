@@ -26,4 +26,4 @@ Database: MongoDB
 
 Authentication: Passport.js
 
-Deployment: Heroku
+Deployment: Render
